@@ -2,7 +2,7 @@
 <body>
 
 <div>
-    <form method="post">
+    <form method="post"  action="add">
         <input type="text" name="text" placeholder="Введите сообщение" />
         <input type="text" name="tag" placeholder="Тэг" />
         <button type="submit">Добавить</button>
@@ -11,7 +11,10 @@
 
 </div>
 
-
+<form method="post" action="filter">
+    <input type="text" name="find" placeholder="Введите тэг"/>
+    <button type="submit">Найти</button>
+</form>
 
 
 <div>Список сообщений</div>
